@@ -1248,41 +1248,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/main1.js"></script>
-  <script>
-    function myFunctionabout() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
-    
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read More"; 
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read More"; 
-        moreText.style.display = "inline";
-      }
-    }
-    </script>
-    <script>
-      function myFunctionevent() {
-        var dots = document.getElementById("dotsevent");
-        var moreText = document.getElementById("moreevent");
-        var btnText = document.getElementById("myBtnevent");
-      
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read More"; 
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Read More"; 
-          moreText.style.display = "inline";
-        }
-      }
-      </script>
 </body>
 
 </html>
